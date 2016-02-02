@@ -10,18 +10,20 @@ namespace lexicon_dag7
     {
         string FName = "";
         string LName = "";
+
         /* */
-        Person()
+
+        public Person()
         {
             Console.WriteLine("hello");
         }
 
-        Person(string FName)
+        public Person(string FName)
         {
             this.FName = FName;
         }
 
-        Person(string FName, string LName)
+        public Person(string FName, string LName)
         {
             this.FName = FName;
             this.LName = LName;

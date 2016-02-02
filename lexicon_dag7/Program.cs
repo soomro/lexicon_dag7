@@ -18,7 +18,7 @@ namespace lexicon_dag7
             // 'please key to close' feature
             Console.WriteLine("Press any key to close the window!!");
             Console.ReadKey();
-                        
+            
             /*
             testing stuffs
             String symbol = "\u2202";
